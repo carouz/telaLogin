@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Painel Principal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Bem-vindo!</h1>
+        <p>Olá, <span id="nomeUsuario">Usuário</span>.</p>
+        
+        <hr style="border: 0.5px solid #333; margin: 20px 0;">
+
+        <nav>
+            <ul style="list-style: none; padding: 0;">
+                <li><button type="button" class="menu-btn" onclick="location.href='perfil.html'">Meu Perfil</button></li>
+                <li><button type="button" class="menu-btn" onclick="location.href='config.html'">Configurações</button></li>
+                <li><button type="button" id="btnLogout" style="background-color: #ff5252; margin-top: 20px;">Sair</button></li>
+            </ul>
+        </nav>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
