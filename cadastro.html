@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Criar Conta</h1>
+        <form id="cadastroForm">
+            <input type="text" id="novoUsuario" placeholder="Escolha um Usuário" required>
+            <input type="email" id="email" placeholder="E-mail" required>
+            <input type="password" id="novaSenha" placeholder="Senha" required>
+            <input type="password" id="confirmarSenha" placeholder="Confirme a Senha" required>
+            
+            <button type="submit">Cadastrar</button>
+            
+            <p id="mensagem"></p>
+        </form>
+        
+        <div style="margin-top: 15px; text-align: center;">
+            <a href="index.html" style="color: #03dac6; text-decoration: none; font-size: 0.9em;">Já tem uma conta? Faça login</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
