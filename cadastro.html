@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Conta - Sistema de Autenticação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="login-container">
+        <h1>Criar Conta</h1>
+        <form id="cadastroForm">
+            <input type="text" id="novoUsuario" placeholder="Escolha um Usuário" required>
+            <input type="email" id="email" placeholder="E-mail" required>
+            <input type="password" id="novaSenha" placeholder="Senha" required>
+            <input type="password" id="confirmarSenha" placeholder="Confirme a Senha" required>
+            <button type="submit">Cadastrar</button>
+        </form>
+        <p id="msgCadastro"></p>
+        <a href="index.html" class="link-toggle">Já tem uma conta? Faça login</a>
+    </div>
+
+    <footer>
+        <p>TelaLogin © 2026 - Desenvolvido por Caroline Borba</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

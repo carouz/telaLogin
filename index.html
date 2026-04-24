@@ -3,19 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela de Login</title>
+    <title>Login - Sistema de Autenticação</title>
+    <!-- Vinculação do ficheiro de estilo externo -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <div class="login-container">
         <h1>Login</h1>
+        
+        <!-- Formulário com ID para captura no script.js -->
         <form id="loginForm">
-            <input type="text" id="usuario" placeholder="Usuário">
-            <input type="password" id="senha" placeholder="Senha">
+            <input type="text" id="usuario" placeholder="Utilizador" required>
+            <input type="password" id="senha" placeholder="Palavra-passe" required>
             <button type="submit">Entrar</button>
-            <p id="mensagem"></p>
         </form>
+
+        <!-- Espaço para mensagens de erro ou sucesso -->
+        <p id="msgLogin" class="error"></p>
+        
+        <!-- Link para navegação entre ficheiros -->
+        <a href="cadastro.html" class="link-toggle">Não tem conta? Registe-se aqui</a>
     </div>
+
+    <footer>
+        <p>TelaLogin © 2026 - Desenvolvido por Caroline Borba</p>
+    </footer>
+
+    <!-- Vinculação do ficheiro de lógica JS -->
     <script src="script.js"></script>
 </body>
 </html>
